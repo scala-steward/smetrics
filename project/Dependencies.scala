@@ -12,7 +12,7 @@ object Dependencies {
   val doobie = "org.typelevel" %% "doobie-core" % "1.0.0-RC13"
 
   object Cats {
-    private val effectVersion = "3.7.0"
+    private val effectVersion = "3.7.1"
     val core = "org.typelevel" %% "cats-core" % "2.13.0"
     val effect = "org.typelevel" %% "cats-effect" % effectVersion
     val effectTestkit = "org.typelevel" %% "cats-effect-testkit" % effectVersion
